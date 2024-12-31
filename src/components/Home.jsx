@@ -96,7 +96,7 @@ const Home = () => {
             </div>
             <div className="projects-div">
                 <div className="project">
-                    <a href="https://benevolent-alpaca-fe1a01.netlify.app/" target='blank'>
+                    <a href="https://crypnext.netlify.app/" target='blank'>
                         <img src={cryptox} alt="" />
                         <p>CryptoInfo API <img src="https://img.icons8.com/ios-glyphs/30/react.png" alt="" /></p>
                     </a>
