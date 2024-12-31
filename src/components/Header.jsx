@@ -32,9 +32,9 @@ const Header = () => {
       </div>
       
       <div className={`header-menu ${menuOpen ? 'open' : ''}`}>
-        <a href="#home" smooth={true} duration={500}>Home</a>
-        <a href="#about" smooth={true} duration={500}>About</a>
-        <a href="#projects">Projects</a>
+        <a href="/#home" smooth={true} duration={500}>Home</a>
+        <a href="/#about" smooth={true} duration={500}>About</a>
+        <a href="/#projects">Projects</a>
         <Link to="/contact">Contact</Link>
       </div>
       <div className={`header-sm ${menuOpen ? 'open' : ''}`}>
