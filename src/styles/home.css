@@ -1,0 +1,165 @@
+.home{
+    /* background-color: black; */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/react-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 2rem 0;
+    
+
+    .headings{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .heading-name{
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 3rem;
+                font-weight: 600;
+            }
+            p{
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+        
+        .heading-img{
+            display: flex;
+            img{
+                align-items: center;
+
+                margin: 1rem auto;
+                width: 60%;
+                border-radius: 30%;
+            }
+        }
+    }
+}
+
+.about{
+    padding: 2rem 1rem;
+
+    .about-heading{
+        text-align: center;
+        padding: 0 1rem;
+        h2{
+            font-size: 2.3rem;
+            font-weight: 600;
+        }
+    }
+    .about-desc{
+        padding: 0 1rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .about-resume{
+        margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+        a{
+            button{
+                padding: 0.5rem 1rem;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.skills {
+    padding: 1rem 1rem;
+    background-color: rgb(168, 168, 168);
+
+    .skills-heading {
+        text-align: center;
+        padding: 0 1rem;
+
+        h2 {
+            font-size: 2.3rem;
+            font-weight: 600;
+        }
+    }
+
+    .skills-div {
+        display: flex;
+        padding: 1rem;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 1rem;
+
+        scrollbar-width: thin;
+        scrollbar-color: #222222 transparent;
+
+        div {
+            margin: 0.5rem auto;
+            background-color: white;
+            border-radius: 5px;
+            padding: 0.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 5rem;
+            }
+        }
+    }
+}
+
+.projects{
+    padding: 1rem 1rem;
+
+    .projects-heading{
+        text-align: center;
+        padding: 0 1rem;
+        h2 {
+            font-size: 2.3rem;
+            font-weight: 600;
+        }
+    }
+
+    .projects-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem auto;
+        
+        .project{
+            width: 13rem;
+            height: 13rem;
+            background-color: rgb(168, 168, 168);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    width: 60%;
+                    border-radius: 50%;
+                    margin: auto;
+                }
+                p{
+                    text-align: center;
+                    font-size: 1.1rem;
+                    img{
+                        width: 1.5rem;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}

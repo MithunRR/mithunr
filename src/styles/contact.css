@@ -1,0 +1,13 @@
+.contact-heading{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+
+    a{
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 4px;
+    }
+}
